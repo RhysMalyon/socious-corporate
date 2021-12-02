@@ -13,8 +13,6 @@
 
 Live website: https://socious.io/
 
-Gatsby build (in progress): https://sociousgatsbymaster.gatsbyjs.io/
-
 App Store: https://apps.apple.com/jp/app/socious/id1581904474
 
 Play Store: https://play.google.com/store/apps/details?id=com.dissocialnetwork
@@ -28,6 +26,14 @@ After cloning the repository in your selected folder:
     gatsby develop
 
 The site will now be running at http://localhost:8000
+
+### Note
+
+Some plugins, particularly those related to Google Analytics, do not work in a development environment. If any errors occur due to this you'll need to create a production build with the following commands:
+
+```
+gatsby build && gatsby serve
+```
 
 ## Notion Integration
 
