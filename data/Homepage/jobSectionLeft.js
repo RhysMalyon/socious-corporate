@@ -8,27 +8,27 @@ const jobItem = [
   {
     id: 1,
     icon: <WhatshotIcon />,
-    title: "Meet like-minded people",
-    subtitle: `Socious AI will match you with the people you want to meet and offer 
-    community support and meaningful connections that accelerate social change
+    title: "Discover and contribute to social impact projects you care about effortlessly",
+    subtitle: `You can meet like-minded people and be part of the social impact community.
+    You can find one-off, part-time, and full-time opportunities at social impact organizations tackling various social issues and Sustainable Development Goals (SDGs).
+    Our 1-Click Application feature and AI recommendations will save you time and hassle.
     `
   },
   {
     id: 2,
     icon: <DeveloperModeIcon />,
-    title: "Easily find the most suited social impact projects",
-    subtitle: `From fast-growing social startups to international organizations,
-    Socious AI will connect you with the right organization.
-    You can contribute to the achievement of the SDGs in a variety of ways,
-    including freelance, part-time, and advisory.
+    title: "Find paid opportunities where you can learn new skills while contributing to a social cause",
+    subtitle: `You can find opportunities where you can earn fiat currency/Socious Coins (community currency) while learning new skills.
+    Our proprietary algorithms ensure meaningful connections with people you want to meet and reduce the risk of mismatches.
+    Earned Socious Coins can be exchanged for socially conscious products sold by Socious organizations (NPOs, social businesses, etc.) - you can solve social issues not only by contributing your time but also by buying and selling products.
     `
   },
   {
     id: 3,
     icon: <FilterTiltShiftIcon />,
-    title: "Visualizes your social impact",
-    subtitle: `Socious' unique algorithm quantifies and visualizes
-    your contribution to solving social issues
+    title: "Take full control of and monetize your data",
+    subtitle: `You are the owner of your data and you can sell it to whomever you please through our blockchain-based platform.
+    You can join social impact projects, buy & sell socially conscious products, and monetize your data. All in one platform.
     `
   }
 ]
