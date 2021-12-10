@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
-const Seo = ({ title, description, image }) => {
+const Seo = ({ title, description, image, twitterImage }) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
 
@@ -17,21 +17,23 @@ const Seo = ({ title, description, image }) => {
     descriptionJapanese,
     siteUrl,
     defaultImage,
-    twitterImage,
+    imageJapanese,
+    defaultTwitterImage,
     favicon,
   } = site.siteMetadata
 
   const jaPage = pathname.includes('/ja')
   const titleSelector = jaPage ? titleJapanese : defaultTitle
+  const imageSelector = jaPage ? imageJapanese : defaultImage
   const descriptionSelector = jaPage ? descriptionJapanese : defaultDescription
   const titleTemplateSelector = jaPage ? titleTemplateJapanese : titleTemplate
 
   const seo = {
     title: title || titleSelector,
     description: description || descriptionSelector,
-    image: `${siteUrl}${image || defaultImage}`,
+    image: image || imageSelector,
     url: `${siteUrl}${pathname}`,
-    twitterImage: `${siteUrl}${twitterImage || defaultImage}`,
+    twitterImage: twitterImage || defaultTwitterImage,
   }
   
   const fixedFaviconLink = (icon) => {
@@ -58,7 +60,7 @@ const Seo = ({ title, description, image }) => {
       {seo.description && (
         <meta name="twitter:description" content={seo.description} />
       )}
-      {seo.image && <meta name="twitter:image" content={seo.twitterImage} />}
+      {seo.twitterImage && <meta name="twitter:image" content={seo.twitterImage} />}
 
       <link rel="apple-touch-icon" sizes="180x180" href={fixedFaviconLink(favicon.appleTouchIcon)} />
       <link rel="icon" type="image/png" sizes="16x16" href={fixedFaviconLink(favicon.ico)} />
@@ -100,7 +102,8 @@ const query = graphql`
         descriptionJapanese
         siteUrl: url
         defaultImage: image
-        twitterImage
+        imageJapanese
+        defaultTwitterImage: twitterImage
         favicon {
           ico
           sm
