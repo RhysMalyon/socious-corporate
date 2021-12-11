@@ -24,6 +24,10 @@ After cloning the repository in your selected folder:
     cd socious-gatsby
     npm install
     gatsby develop
+    or
+    gatsby build && gatsby serve
+    (production environment)
+
 
 The site will now be running at http://localhost:8000
 
@@ -96,7 +100,7 @@ Replace jobTitleHere in declaration name with relevant job title.
     }
 
     export default jobTitleHere
-    
+
 Header content will always be rendered as an h3 element in the final component so a string value is recommended. The content property can be given HTML as a value. To avoid any errors it's best to place the content in a div.
 
 In each rendered DescriptionRow component within the overall job component the header will be displayed on the left and the content on the right, for example:
@@ -105,7 +109,7 @@ In each rendered DescriptionRow component within the overall job component the h
 
 ![image](https://user-images.githubusercontent.com/32938384/138551176-d3f9cd06-0577-42b0-b628-5b44dbd1a1ef.png)
 
-    
+
 ## Job Posting Component
 
 Once the data for the job listing has been set up create a new page component in the following folder:
