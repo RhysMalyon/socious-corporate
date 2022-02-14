@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://socious.io/">
-    <img alt="Gatsby" src="https://media-exp1.licdn.com/dms/image/C560BAQH4gHoQxIBVvA/company-logo_200_200/0/1630919891632?e=1643241600&v=beta&t=dagbkNMv02QTDeVuvmRyjsDSsOvkqrdnoJyiSIaMWoU" />
+    <img alt="Gatsby" src="https://media-exp1.licdn.com/dms/image/C560BAQH4gHoQxIBVvA/company-logo_200_200/0/1630919891632?e=1652918400&v=beta&t=TSTYBvTiVdqKT0JbJ9DumIMTH_686h4lkkdKwk4Ov8w" />
   </a>
 </p>
 <h1 align="center">
