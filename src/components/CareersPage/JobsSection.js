@@ -75,6 +75,39 @@ const JobsSection = (props) => {
               <p>05/12/2021</p>
             </div>
           </div>
+          <div className="jobs-list__item">
+            <div className="job-title">
+              <p><Link to={linkLanguageSelector("/careers/talent-acquisition-lead")}><LinkSimple size={18} /> Talent Acquisition Lead</Link></p>
+            </div>
+            <div className="job-department">
+              <p>Talent</p>
+            </div>
+            <div className="job-date">
+              <p>17/12/2021</p>
+            </div>
+          </div>
+          <div className="jobs-list__item">
+            <div className="job-title">
+              <p><Link to={linkLanguageSelector("/careers/cto")}><LinkSimple size={18} /> Chief Technology Officer (CTO)</Link></p>
+            </div>
+            <div className="job-department">
+              <p>Engineering</p>
+            </div>
+            <div className="job-date">
+              <p>30/12/2021</p>
+            </div>
+          </div>
+          <div className="jobs-list__item">
+            <div className="job-title">
+              <p><Link to={linkLanguageSelector("/careers/executive-assistant")}><LinkSimple size={18} /> Executive Assistant</Link></p>
+            </div>
+            <div className="job-department">
+              <p>Operations</p>
+            </div>
+            <div className="job-date">
+              <p>07/01/2022</p>
+            </div>
+          </div>
         </div>
       </div>
     </SimpleLocalize>

@@ -3,6 +3,7 @@ import AtsushiImg from '../../src/images/team/Atsushi Inoue.jpeg'
 import GalinaImg from '../../src/images/team/Galina Neydenova.jpeg'
 import RhysImg from '../../src/images/team/Rhys Malyon.jpeg'
 import LawrenceImg from '../../src/images/team/Lawrence Cate.jpeg'
+import JaysonImg from '../../src/images/team/Jayson Ilagan.jpeg'
 
 const teamMembers = [
   {
@@ -19,7 +20,7 @@ const teamMembers = [
     imageUrl: AtsushiImg,
     imageAlt: 'Atsushi Inoue',
     name: 'Atsushi Inoue, Ph.D.',
-    title: 'AI Advisor',
+    title: 'Advisor',
     bio1: 'A seasoned specialist in Artificial Intelligence & Blockchain based in the United States and Japan.  He had led a number of cutting-edge projects in diversified application domains across the globe as the Director of Intelligent Informatics Initiative (I3).',
     bio2: 'Currently, he is a Startup Solutions Architect at AWS and a Visiting Professor of the Graduate School of Regional Innovation Studies at Mie University in Japan. He is focusing on the digital entrepreneurship in order to lower the hurdles of its PoC and MVP by taking integrative approaches, i.e. as a result of utilizing SBC, e.g. Raspberry Pi, and Cloud Computing, e.g. Azure, GCP and AWS.',
   },
@@ -50,6 +51,15 @@ const teamMembers = [
     title: 'Technical Advisor',
     bio1: 'Lawrie is a computer scientist passionate about tackling social and environmental issues by using technology and community. A graduate of the University of Nottingham in the UK, Lawrie has experience working in Japan on the international expansion of the Mercari marketplace service.',
     bio2: `Lawrie is now working on the development of the Home away from Home travel service and is also a founding member of mymizu, one of Japan's leading non-profit organisations tackling the plastic pollution crisis.`,
+  },
+  {
+    id: 6,
+    imageUrl: JaysonImg,
+    imageAlt: 'Jayson Ilagan',
+    name: 'Jayson Ilagan',
+    title: 'Senior Developer',
+    bio1: 'Jayson is a web and mobile app developer with over 12 years of experience. He earned his degree in Computer Science from the Lyceum of the Philippines-Laguna. He accepted his school invitation to work for them after graduation to build systems and worked on developing a faculty performance evaluation system.',
+    bio2: `After spending six years working at Ivoclar Vivadent Inc. as an IT Global Software Developer, where his primary focus was project creation, he decided to move to Singapore for two years to join Direct Asia Management Services Pte. Ltd. As a web developer, he enhanced the Quote and Buy journey of the company portal that caters to motorcycles and travel insurance. He hopes to build an application for kids with curable diseases who don't have the means to pay for medications to help them access proper medical treatment.`,
   },
 ]
 
