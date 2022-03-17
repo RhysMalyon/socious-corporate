@@ -19,25 +19,21 @@ Play Store: https://play.google.com/store/apps/details?id=com.dissocialnetwork
 
 ## Getting started
 
-After cloning the repository in your selected folder:
+After cloning the repository in your selected folder, to run a development environment:
 
-    cd socious-gatsby
-    npm install
-    gatsby develop
-    or
-    gatsby build && gatsby serve
-    (production environment)
+```
+cd socious-gatsby
+npm install
+gatsby develop
+```
 
-
-The site will now be running at http://localhost:8000
-
-### Note
-
-Some plugins, particularly those related to Google Analytics, do not work in a development environment. If any errors occur due to this you'll need to create a production build with the following commands:
+To run a production environment for testing purposes, particularly related to Google Analytics:
 
 ```
 gatsby build && gatsby serve
 ```
+
+The site will now be running at http://localhost:8000
 
 ## Notion Integration
 
