@@ -14,7 +14,7 @@ const leadDesigner = {
           <br /><br />
           Socious is a community app for social change, powered by AI and blockchain. Many people are interested in contributing to social impact projects, but few of them can do so. We leverage
           this untapped potential by helping them contribute to society in an easy, fun way through a purpose-driven community
-          app, AI recommendations, and blockchain-based community currency. We are developing a decentralized application (Dapp) where users can take control of and monetize their content and data.
+          app, AI recommendations, and blockchain-based community currency.
           <br /><br />
           We started Socious in July 2021, so as an early employee you’ll be pivotal in shaping the direction of the company. We
           have enough runway to last us through the end of 2022, and are about to close a seed round to allow us to accelerate
@@ -89,7 +89,7 @@ const leadDesigner = {
       header: 'How to apply',
       content:
         <div>
-          <p>To apply, please send your letter of motivation (cover letter), resume, and portfolio to <a href="mailto:jobs@socious.io">jobs@socious.io</a></p>
+          <p>To apply, please download the Socious app and apply directly through the 'Projects' tab</p>
           <br />
           <p><strong>Please Note:</strong> This role is open to remote work outside Japan and also to remote work initially, with the aim of relocating to Japan post-Covid.</p>
         </div>

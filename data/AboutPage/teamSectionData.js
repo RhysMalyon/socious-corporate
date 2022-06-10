@@ -7,6 +7,12 @@ import JaysonImg from '../../src/images/team/Jayson Ilagan.jpeg'
 import RiteshImg from '../../src/images/team/Ritesh Giri.jpeg'
 import XanImg from '../../src/images/team/Xan Varcoe.jpeg'
 import TinImg from '../../src/images/team/Tin Cabrera.jpeg'
+import PranavImg from '../../src/images/team/Pranav Khanna.jpeg'
+import CristhianImg from '../../src/images/team/Cristhian Tejada.jpeg'
+import RaphaelImg from '../../src/images/team/Raphael Hode.jpeg'
+import JesdakornImg from '../../src/images/team/Jesdakorn Samittiauttakorn.jpeg'
+import ArsalanImg from '../../src/images/team/Arsalan Ni.jpeg'
+import LenaImg from '../../src/images/team/Lena Namiki.jpeg'
 
 const teamMembers = [
   {
@@ -92,6 +98,60 @@ const teamMembers = [
     title: 'Executive Assistant and Community Builder',
     bio1: `Creating safe spaces for all is Tin's life purpose. She vowed to provide a place for the youth to be themselves without fear  after being bullied in her younger years because of her sexual orientation and gender expression. Her purpose eventually led her to cofound Cofficina, a co-working space catering to the underserved creatives, entrepreneurs, and freelancers of Marikina, Philippines.`,
     bio2: 'Tin is a self-confessed multipotentialite pursuing different interests in varied fields. She is a certified Transformational Coach, a former community manager for Sustainability Solutions Exchange and Create Philippines, a Facebook ads strategist, a motivational speaker, and now, an Executive Assistant and Community Builder for Socious.',
+  },
+  {
+    id: 10,
+    imageUrl: PranavImg,
+    imageAlt: 'Pranav Khanna',
+    name: 'Pranav Khanna',
+    title: 'Advisor',
+    bio1: `Having a background in circular fashion, sustainability, plastic waste management and cryptocurrency, Pranav currently works in the climate X blockchain space. Most recently, he has been contributing to DAO's in the climate space and the Circular Design Challenge of Lakme Fashion week and currently works with LoaLabs, a laboratory for better world blockchains.`,
+    bio2: 'As an advisor for Socious, he hopes to leverage his skills gained from his experience working with blockchain for environment, acting as a mentor in start-up accelerators and developing award-winning tools for sustainability.',
+  },
+  {
+    id: 11,
+    imageUrl: CristhianImg,
+    imageAlt: 'Cristhian Tejada',
+    name: 'Cristhian Tejada',
+    title: 'Blockchain Developer',
+    bio1: 'Cristhian strongly believes that artificial intelligence and blockchain will play an essential role in sustainable development and social good in the coming years. He currently stands out as a data scientist and blockchain developer in several social impact projects using the technology as a main tool. He also works in the Open Bank Project developing blockchain based solutions for the financial and banking sector.',
+    bio2: 'Although his studies are in business and economics, the need to create tools that improve living conditions and solve environmental issues has driven him to develop his skills in computer science. In the next few years he plans to continue his doctoral studies investigating new economic models using Web3 technologies.',
+  },
+  {
+    id: 12,
+    imageUrl: RaphaelImg,
+    imageAlt: 'Raphael Hode',
+    name: 'Raphael Hode',
+    title: 'Design Advisor',
+    bio1: `Raphael is a Strategic Designer with a passion for social innovation and sustainability. After a few years in advertising agencies in Paris, Raphael moved to Tokyo in 2015 and joined Designit, a global strategic design firm. At Designit Raphael worked on growing a team and helping some of Japan's most ambitious companies make innovation happen, leading him to endorse a variety of roles across UX design, service design, business design, and strategy.`,
+    bio2: 'In parallel, he has been passionately engaging in activities related to sustainability and social innovation: giving talks and workshops, mentoring early-stage social founders, and eventually co-founding a social venture. Today, he spends most of his time working with incredible social entrepreneurs to help them define, design, and launch visionary products that contribute to creating a more sustainable society.',
+  },
+  {
+    id: 13,
+    imageUrl: JesdakornImg,
+    imageAlt: 'Jesdakorn Samittiauttakorn',
+    name: 'Jesdakorn Samittiauttakorn',
+    title: 'Advisor',
+    bio1: 'Jesdakorn is an expert in holistic technology and data management, with 10 years of experience particularly in AI and ML Development, Data Security, and Data Privacy. He has helped many leading organizations and startups across Asia to navigate complexities in large-scale architecture, structure efficient system pipelines, and ultimately capture opportunities and drive business values following key insights drawn. He finds ESG interesting and wants to use technology to make the world a better place.',
+    bio2: '',  
+  },
+  {
+    id: 14,
+    imageUrl: ArsalanImg,
+    imageAlt: 'Arsalan Ni',
+    name: 'Arsalan Ni',
+    title: 'Advisor',
+    bio1: 'Arsalan is the Managing Partner and Co-Founder of MOST Ventures in Almaty, Kazakhstan, and UNDP SDG-Climate Facility Senior Advisor in the Middle East and North Africa (MENA). He also serves as a fund management advisor to AV Ventures, a Washington DC-based impact investment fund, setting up Central Asia Impact Fund in Bishkek, Kyrgyzstan.',
+    bio2: 'With over 20 years of experience in investment and advisory in frontier and emerging markets, his impressive background includes serving as the Private Sector Facility Senior Advisor at the Green Climate Fund (GCF), the Regional Program Manager for the International Finance Corporation (IFC) SME Ventures program in Asia and the Middle East, and a technical advisor to various high-profile World Bank projects. He also co-founded three successful venture-backed enterprises in the US and Taiwan.',
+  },
+  {
+    id: 15,
+    imageUrl: LenaImg,
+    imageAlt: 'Lena Namiki',
+    name: 'Lena Namiki',
+    title: 'Web Developer',
+    bio1: 'Lena is a full-stack web developer, passionate about helping others bring their innovative ideas to life through code. While serving as a web developer for Socious, she also currently works at Adobe as a front-end developer, focusing on developing and testing personalized customer experiences.',
+    bio2: 'Prior to becoming a developer, she worked as a digital marketer, focusing on digital ads, social media marketing and online/offline customer experience. She hopes to offer her different expertise to help tackle social issues and make a positive and lasting change.',
   },
 ]
 
